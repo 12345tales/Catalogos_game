@@ -1,0 +1,19 @@
+GAMESHELF — COMO EXECUTAR
+
+1. Extraia este ZIP.
+2. Abra a pasta GameShelf-Redesenhado no VS Code. Atenção: abra a pasta que contém package.json.
+3. No VS Code, selecione Terminal > Novo Terminal.
+4. Digite: npm install
+5. Quando terminar, digite: npm run dev
+6. Abra o endereço que aparecer no terminal (normalmente http://localhost:5173/).
+
+Se aparecer “package.json não encontrado”, você está no diretório errado.
+Entre na pasta que contém package.json antes de executar npm install.
+
+ARQUIVOS PRINCIPAIS
+- index.html: estrutura da página
+- src/style.css: aparência e responsividade
+- src/main.ts: cadastro, edição, exclusão, filtros e salvamento
+- public/images/: ilustrações locais
+
+Os dados ficam salvos no navegador usado. Exporte um backup JSON periodicamente.

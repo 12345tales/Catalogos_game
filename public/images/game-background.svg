@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="900" y1="0" x2="900" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#111D2A"/><stop offset=".45" stop-color="#364B55"/><stop offset=".7" stop-color="#B88668"/><stop offset="1" stop-color="#18252B"/></linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(1300 300) rotate(90) scale(260 480)" gradientUnits="userSpaceOnUse"><stop stop-color="#F4C98B" stop-opacity=".7"/><stop offset="1" stop-color="#F4C98B" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ground" x1="900" y1="430" x2="900" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#23333A"/><stop offset="1" stop-color="#10171D"/></linearGradient>
+    <linearGradient id="river" x1="1050" y1="510" x2="1270" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#9AB5B0" stop-opacity=".45"/><stop offset="1" stop-color="#263D45" stop-opacity="0"/></linearGradient>
+    <pattern id="stars" width="115" height="82" patternUnits="userSpaceOnUse"><circle cx="16" cy="20" r="1.5" fill="#DFE5D5" fill-opacity=".6"/><circle cx="82" cy="51" r="1" fill="#DFE5D5" fill-opacity=".42"/><circle cx="52" cy="6" r=".9" fill="#DFE5D5" fill-opacity=".32"/></pattern>
+  </defs>
+  <rect width="1800" height="720" fill="url(#sky)"/>
+  <rect width="1800" height="500" fill="url(#sun)"/>
+  <rect width="1800" height="390" fill="url(#stars)"/>
+  <circle cx="1295" cy="260" r="91" fill="#F6D8A8" fill-opacity=".47"/>
+  <circle cx="1295" cy="260" r="119" stroke="#F8D6A1" stroke-opacity=".19"/>
+  <path d="M0 436 112 348 188 378 296 264 383 331 502 221 622 342 758 245 853 325 988 210 1084 297 1211 186 1307 274 1425 216 1548 330 1656 252 1800 340V720H0V436Z" fill="#3B4D58" fill-opacity=".72"/>
+  <path d="M0 481 116 423 226 453 348 350 464 415 584 323 707 415 837 319 946 406 1084 309 1194 402 1320 292 1435 380 1551 313 1680 425 1800 367V720H0V481Z" fill="#263941"/>
+  <path d="M0 535 118 485 250 510 371 420 475 474 606 403 713 476 845 393 960 481 1091 385 1206 462 1332 369 1440 459 1553 405 1669 482 1800 430V720H0V535Z" fill="url(#ground)"/>
+  <path d="M0 560 175 538 274 558 393 501 504 543 634 489 747 541 874 473 997 529 1125 464 1249 522 1396 453 1512 513 1650 463 1800 490V720H0V560Z" fill="#17252B"/>
+  <g fill="#111A20" fill-opacity=".9">
+    <path d="M1020 460V353h28V460h-28Zm38 0V325h22V460h-22Zm32 0V367h35V460h-35Zm45 0V312h18V460h-18Zm25 0V346h31V460h-31Zm40 0V291h19V460h-19Zm29 0V329h30V460h-30Zm39 0V350h18V460h-18Zm29 0V306h33V460h-33Zm42 0V337h24V460h-24Zm34 0V286h17V460h-17Zm25 0V322h34V460h-34Zm44 0V359h24V460h-24Zm32 0V331h20V460h-20Zm30 0V369h26V460h-26Z"/>
+    <path d="M1120 313 1144 265 1168 313H1120Zm101-22 23-53 24 53h-47Zm150 3 20-43 20 43h-40Z"/>
+  </g>
+  <g stroke="#C9D0C5" stroke-opacity=".23" stroke-width="2">
+    <path d="M1048 367h22m-22 18h22m-22 18h22m-22 18h22M1172 333h21m-21 18h21m-21 18h21m-21 18h21M1294 314h20m-20 18h20m-20 18h20m-20 18h20M1400 350h23m-23 18h23m-23 18h23m-23 18h23M1519 333h22m-22 18h22m-22 18h22m-22 18h22"/>
+  </g>
+  <path d="M1010 720 1190 478h102l-48 242h-234Z" fill="url(#river)"/>
+  <path d="M1150 720 1240 508h22l-61 212h-51Z" fill="#D4B788" fill-opacity=".13"/>
+  <g transform="translate(1470 315)" fill="#0D161B">
+    <path d="M21 23c4-20 30-28 43-10l7 25-14 23-26-2-15-21 5-15Z"/>
+    <path d="m19 27-20 28 10 8 22-18 19 12 22-17-2-12-22 12-17-13Z"/>
+    <path d="m21 57-11 77-14 68h25l21-66 12 66h27l-18-80-2-65Z"/>
+    <path d="M19 190h-17l-7 14h27l5-7Zm45 0h18l9 14H63l-4-7Z"/>
+    <path d="M12 11 19-8l33-4 17 18-8 18-35 1Z"/>
+    <path d="M9-2 19-20l31-2 16 14-8 13-39 1Z" fill="#17242A"/>
+    <path d="M45 55 71 82l19 24-8 8-31-27-15-17Z"/>
+    <path d="M24 60 5 88l-12 22 9 7 21-27 12-18Z"/>
+  </g>
+  <path d="M0 673 280 634 501 660 735 624 935 657 1160 620 1390 649 1603 611 1800 636V720H0Z" fill="#0D1419" fill-opacity=".55"/>
+  <g stroke="#C1D2B0" stroke-opacity=".12"><path d="M0 604h1800M0 643h1800M0 679h1800"/><path d="M700 720 900 604m80 116 60-116m65 116 22-116m97 116 3-116m110 116-15-116"/></g>
+</svg>
